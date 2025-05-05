@@ -60,7 +60,7 @@
       "type": "framework",
       "optional": false,
       "owner": "Burdalfis",
-      "version": "https://github.com/Burdalfis/teensy-cores.git#no_warnings"
+      "version": "https://github.com/Burdalfis/teensy-cores.git"
     },
     "framework-zephyr": {
       "type": "framework",
