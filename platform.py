@@ -23,7 +23,7 @@ from platformio.util import get_systype
 IS_WINDOWS = sys.platform.startswith("win")
 
 
-class TeensytsPlatform(PlatformBase):
+class TeensySDRAMPlatform(PlatformBase):
 
     @staticmethod
     def _is_macos_x86():

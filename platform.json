@@ -1,5 +1,5 @@
 {
-  "name": "teensy-ts",
+  "name": "teensy-sdram",
   "title": "Teensy",
   "description": "Teensy is a complete USB-based microcontroller development system, in a very small footprint, capable of implementing many types of projects. All programming is done via the USB port. No special programmer is needed, only a standard USB cable and a PC or Macintosh with a USB port.",
   "homepage": "https://www.pjrc.com/teensy",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tsandmann/platform-teensy.git"
+    "url": "https://github.com/Burdalfis/platform-teensy.git"
   },
   "version": "4.18.0",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoteensy-ts",
+      "package": "framework-arduinoteensy-sdram",
       "script": "builder/frameworks/arduino.py"
     },
     "zephyr": {
@@ -56,11 +56,11 @@
       "owner": "platformio",
       "version": "~1.159.0"
     },
-    "framework-arduinoteensy-ts": {
+    "framework-arduinoteensy-sdram": {
       "type": "framework",
       "optional": false,
-      "owner": "tsandmann",
-      "version": "https://github.com/tsandmann/teensy-cores.git#no_warnings"
+      "owner": "Burdalfis",
+      "version": "https://github.com/Burdalfis/teensy-cores.git#no_warnings"
     },
     "framework-zephyr": {
       "type": "framework",
